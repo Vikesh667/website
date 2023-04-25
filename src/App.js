@@ -1,10 +1,10 @@
 import Header from "./component/Header/Header";
 import {Route,Routes} from "react-router-dom"
-import Home from "./component/Pages/Home/Home";
-import  About  from "./component/Pages/About/About";
-import Services from "./component/Pages/Services/Services";
-import Contact from "./component/Pages/Contact/Contact";
-import Course from "./component/Pages/Course/Course";
+import Home from "./Pages/Home/Home";
+import  About  from "./Pages/About/About";
+import Services from "./Pages/Services/Services";
+import Contact from "./Pages/Contact/Contact";
+import Course from "./Pages/Course/Course";
 function App() {
   return (
         <div>
