@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {NavLink} from "react-router-dom"
 import style from "./Header.module.css"
+import {GiHamburgerMenu } from 'react-icons/gi';
 const Header = () => {
     const navbar=[
         {
@@ -60,7 +61,7 @@ const Header = () => {
     </div>:null}
 
     <div className={style.btn}>
-        <button onClick={toggleNavBar} className={style.menu}>menu</button>
+        <button onClick={toggleNavBar} className={style.menu}><GiHamburgerMenu/></button>
     </div> 
     </nav>
   )
